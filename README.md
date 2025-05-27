@@ -1,2 +1,2 @@
-# breakfast
-Breakfast by Codz learners
+# coffee-shop
+Coffee Shop by Divinector
