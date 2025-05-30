@@ -8,6 +8,15 @@
 </head>
 <body>
    
+
+<!-- 
+- Додали стилі і скрипт bootstrap
+- Додали компонент navbar
+- Змінили стиль navbar на темний
+- Видалили з навігації дефолтну форму та частину пунктів  
+- Оформлюємо головну сторінку
+-->
+
     <!-- Bootstrap navigation -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -19,37 +28,49 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Головна</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Про нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Меню</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Галерея</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Контакти
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Наші соцмережі</a></li>
+                  <li><a class="dropdown-item" href="#">Контактні дані</a></li>
+                  <li><a class="dropdown-item" href="#">Місцезнаходження</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Задонатити</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
           </div>
         </div>
       </nav>
 
     <!-- Bootstrap navigation -->
+ 
+    <!-- Header -->
+     <header class="hero-section">
+      <div class="container">
+        <h1><img src="./images/coffee_icon.png" alt="Coffee icon">Coffee Shop<img src="./images/coffee_icon.png" alt="Coffee icon"></h1>
+        <p>Насолоджуйтесь досконалою кавою найвищої якості</p>
+        <a href="#" class="btn btn-primary">Зробити замовлення</a>
+      </div>
+     </header>
+    <!-- Header -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 
