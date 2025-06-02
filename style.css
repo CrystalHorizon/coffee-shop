@@ -9,6 +9,7 @@
 }
 
 .hero-section {
+    height: 100%;
     background-color: var(--brand-color);
     color: var(--white-color);
     text-align: center;
@@ -61,8 +62,11 @@
 
 @media (max-width: 600px) {
     .hero-section{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         padding: 120px 0;
+    }
+    .hero-section h1 img {
+        width: 30px;
     }
     .hero-description {
         font-size: 1rem;
